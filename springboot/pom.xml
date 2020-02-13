@@ -20,4 +20,20 @@
     </dependency>
    </dependencies>      
    
+   
+  <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
+
+   <build>
+     <plugins>
+       <plugin>
+         <groupId>org.springframework.boot</groupId>
+         <artifactId>spring-boot-maven-plugin</artifactId>
+       </plugin>
+     </plugins>
+   </build>
+
+
  </project>
